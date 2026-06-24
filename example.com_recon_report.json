@@ -18,20 +18,35 @@
             "0 ."
         ],
         "NS": [
-            "hera.ns.cloudflare.com.",
-            "elliott.ns.cloudflare.com."
+            "elliott.ns.cloudflare.com.",
+            "hera.ns.cloudflare.com."
         ],
         "TXT": [
-            "\"v=spf1 -all\"",
-            "\"_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9\""
+            "\"_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9\"",
+            "\"v=spf1 -all\""
         ]
     },
-    "certificate_transparency_subdomains": [
-        "Could not fetch certificate data: HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=15)"
-    ],
+    "certificate_transparency": {
+        "source": "crt.sh",
+        "status": "success",
+        "count": 6,
+        "subdomains": [
+            "dev.example.com",
+            "example.com",
+            "m.example.com",
+            "products.example.com",
+            "support.example.com",
+            "www.example.com"
+        ],
+        "error": null,
+        "warnings": [
+            "Query 'example.com' returned HTTP 502"
+        ],
+        "message": "Certificate Transparency subdomains collected successfully."
+    },
     "security_notes": [
         "SPF record found.",
         "DMARC record not directly visible in root TXT records. Check _dmarc.domain separately.",
-        "MX records found. Mail provider may be identifiable."
+        "Null MX record found. This domain may not accept email."
     ]
 }
