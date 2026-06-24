@@ -160,15 +160,12 @@ This tool should only be used in the following cases:
 
 Unauthorized reconnaissance may lead to legal and ethical consequences. The user is fully responsible for how they use this tool.
 
-## License
-
-This project is shared for educational and security research purposes. Users are responsible for how they use it.
 
 
 
 
 
-_tr_
+## TR
 
 Bu proje, yetkili olunan bir domain üzerinde temel **pasif keşif** işlemleri yapmak için geliştirilmiş Python tabanlı bir araçtır. Script; DNS kayıtlarını toplar, Certificate Transparency kayıtları üzerinden subdomain bilgisi elde etmeye çalışır, temel güvenlik notları üretir ve sonuçları JSON formatında raporlar.
 
@@ -327,7 +324,3 @@ Bu araç yalnızca aşağıdaki durumlarda kullanılmalıdır:
 * Eğitim, laboratuvar veya güvenlik farkındalığı çalışmalarında.
 
 İzinsiz keşif faaliyetleri yasal ve etik sorunlara yol açabilir. Kullanıcı, aracı kullanırken tüm sorumluluğu kendisi üstlenir.
-
-## Lisans
-
-Bu proje eğitim ve güvenlik araştırmaları amacıyla paylaşılmıştır. Kullanım sorumluluğu kullanıcıya aittir.
